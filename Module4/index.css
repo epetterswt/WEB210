@@ -1,0 +1,44 @@
+.resume {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0, 0, 125, .5);
+    background-image: url('images/thumbnail-2.jpg');
+    background-size: 2500px;
+    background-repeat: no-repeat
+}
+
+.content-wrapper {
+    background: linear-gradient(to right, rgba(255, 255, 0, 0.5), rgba(0, 255, 0, 0.5));
+    color: black;
+    padding: 4px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 5px white;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+section {
+    margin-left: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 4px;
+}

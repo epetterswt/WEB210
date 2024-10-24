@@ -1,0 +1,107 @@
+.portfolio {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0, 0, 125, .5);
+    background-color: white;
+}
+
+.content-wrapper {
+    background: linear-gradient(to right, rgba(255, 255, 0, 0.5), rgba(0, 255, 0, 0.5));
+    color: black;
+    padding: 4px;
+}
+
+ul {
+    font-size: 19pt;
+    margin-left: 2%;
+    list-style-type: none;
+    padding: 5px;
+    background-color: blue;
+    max-width: 410px;
+    border-radius: 4px;
+}
+
+li {
+    display: inline-block;
+    margin: 2.5%;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: yellow;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-radius: 4px;
+    padding: 8px;
+    max-width: 300px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.content ul {
+    background-color: black;
+}
+
+.portfolio:hover .content {
+    display: block;
+}
+
+.content a {
+    display: block;
+}
+
+header {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 5px white;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+section {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    padding: 0.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.grid p {
+    font-size: 16pt;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+footer ul li {
+    display: list-item;
+    font-size: 12pt;
+}
